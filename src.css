@@ -1,0 +1,218 @@
+body {
+  background-image: url("http://theartmad.com/wp-content/uploads/Grey-Wood-Background-Tumblr-6.png");
+}
+
+#circle {
+  height: 500px;
+  width: 500px;
+  top: 50px;
+  left: 350px;
+  position: absolute;
+  background: #333333;
+  border-radius: 50%;
+}
+
+.multiColorCircle { 
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+}
+
+.quarter {
+  height: 190px;
+  width: 190px;
+}
+
+.top-left {
+  border-top-left-radius: 200px;
+  background: #00A74A;
+  float: left;
+  margin: 40px;
+}
+
+.top-left:active {
+  box-shadow: 2px 2px 20px #FFFF33;
+}
+
+.top-right {
+  border-top-right-radius: 200px;
+  background: #9F0F17;
+  float: right;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.top-right:active {
+  box-shadow: 2px 2px 20px #FFFF33;
+}
+
+.bottom-left {
+  border-bottom-left-radius: 200px;
+  background: #CCA707;
+  float: left;
+  margin-left: 40px;
+}
+
+.bottom-left:active {
+  box-shadow: 2px 2px 20px #FFFF33;
+}
+
+.bottom-right {
+  border-bottom-right-radius: 200px;
+  background: #094A8F;
+  float: right;
+  margin-right: 20px;
+}
+
+.bottom-right:active {
+  box-shadow: 2px 2px 20px #FFFF33;
+}
+
+.Y {
+  background-color: #FFFF00;
+}
+
+.B {
+  background-color: #1c8cff;
+}
+
+.R {
+  background-color: #ff4c4c;
+}
+
+.G {
+  background: #13ff7c;
+}
+
+.innerCircle {
+  height: 250px;
+  width: 250px;
+  margin-top: 25%;
+  margin-left: 25%;
+  border-radius: 125px;
+  background: #222;
+  position: relative;
+}
+
+.whiteCircle {
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 125px;
+  background: #fff;
+}
+
+.count {
+  background: #32050C;
+  border-radius: 10px;
+  border: 5px solid #222;
+  height: 40px;
+  width: 65px;
+}
+
+.start {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  border: 5px solid #222;
+  border-radius: 50px;
+  background: radial-gradient(circle at 20px 20px, #FC0102, #aaa);
+  cursor: pointer;
+}
+
+.strict-led {
+  height: 10px;
+  width: 10px;
+  margin-left: 10px;
+  margin-top: -15px;
+  margin-bottom: 5px;
+  border: 2px solid #222;
+  border-radius: 50px;
+  background: #333;
+}
+
+.strict-led-on {
+  background: #FC0102;
+}
+
+.strict {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  border: 5px solid #222;
+  background: radial-gradient(circle at 20px 20px, #FFFF00, #aaa);
+  cursor: pointer;
+}
+
+.start,
+.strict:focus {
+  outline: none;
+}
+
+.start:hover {
+  background: rgba(255, 0, 0, 0.9);
+}
+
+.strict:hover {
+  background: rgba(255, 255, 0, 0.9);
+}
+
+.count>h2 {
+  color: #DC0D29;
+  text-align: center;
+  margin: auto;
+  opacity: 0.3;
+}
+
+.blink {
+  animation-duration: 400ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.onOffSwitch {
+  background: #222222;
+  height: 20px;
+  width: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.off,
+.onOffSwitch,
+.on {
+  display: inline-block;
+}
+
+.switch {
+  margin-left: 40px;
+}
+
+.slide-off {
+  height: 20px;
+  width: 20px;
+  background-color: #34A7C1;
+  border: 2px solid #222;
+}
+
+.slide-on {
+  height: 20px;
+  width: 20px;
+  background-color: #34A7C1;
+  border: 2px solid #222;
+  margin-left: 20px;
+}
