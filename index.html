@@ -1,0 +1,53 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Electronic Calculator</title>
+<link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="src.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="circle">
+    <div class="multiColorCircle">
+      <div id="0" class="quarter top-left"></div>
+      <div id="1" class="quarter top-right">
+      </div>
+      <div id="2" class="quarter bottom-left"></div>
+      <div id="3" class="quarter bottom-right"></div>
+      <div class="innerCircle">
+        <div class="whiteCircle">
+          <div style="text-align:center;font-size: 31px;"><strong>Simon</strong></div>
+          <br>
+          <div class="row">
+            <div class="col-xs-4">
+              <div class="count">
+                <h2>--</h2>
+              </div>
+              <span style="margin-left:15px;">Count</span>
+            </div>
+            <div class="col-xs-4">
+              <div class="start"></div>
+              <span style="margin-left:20px;">Start</span>
+            </div>
+            <div class="col-xs-4">
+              <div class="strict-led"></div>
+              <div class="strict"></div>
+              <span>Strict</span>
+            </div>
+          </div>
+          <div class="switch">
+            <span class="off">OFF</span>
+            <div class="onOffSwitch">
+              <div id="on-off" class="slide-off">
+              </div>
+            </div>
+            <span class="on">ON</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="src.js"></script>
+</body>
+</html>
